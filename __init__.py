@@ -1,3 +1,3 @@
-from FirebaseSimpleManager import SimpleFirebaseManager
+from .FirebaseSimpleManager import SimpleFirebaseManager
 
 __all__ = ['SimpleFirebaseManager']
