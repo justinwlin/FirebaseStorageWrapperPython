@@ -53,7 +53,8 @@ config={
         # This is for real time database url so can leave empty.
         "databaseURL": "",
         # This is specifically the admin level
-        "serviceAccount": credentials_path,  # Initialized this through: https://firebase.google.com/docs/admin/setup#initialize-sdk
+        # "serviceAccount": credentials_path,  # Initialized this through firebase instructions
+        "serviceAccount": "firebase_credentials.json" # this is another option, cause on runpod the __file__ was causing issue, so I just gave it the direct relative directory
     }
 
 firebaseSimpleManager = SimpleFirebaseManager(config)
