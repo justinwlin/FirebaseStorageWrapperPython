@@ -29,7 +29,7 @@ You'll get an object like this:
 ## Under Service Accounts
 2) Generate a new private key
 
-You will get a JSON file to download and put to your project.
+You will get a JSON file to download and put to your project. You can also just directly paste in the JSON under the service account rather than the file. I ended up doing that nowadays.
 
 ```python
 
