@@ -5,6 +5,11 @@ https://github.com/AsifArmanRahman/firebase-rest-api
 
 Firebase-rest-api to manage file uploading / downloading from FileStorage.
 
+Meaning you should do:
+```pip install firebase-rest-api```
+
+And potentially whatever other pip errors get thrown at you.
+
 # Setup
 
 Firebase Project > Users and Permissions
